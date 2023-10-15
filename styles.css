@@ -1,0 +1,160 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: white;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: black;
+}
+a{
+    height: fit-content;
+    text-decoration: none; 
+}
+/*  */
+.unordered-list {
+    display: flex;
+    width: 90%;
+}
+.list-items, .social-items {
+    padding: 20px;
+    list-style: none;
+}
+.list-items-links {
+    text-decoration: none;
+}
+/*  */
+.section-1, .section-2, .section-3 {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.container-1, .container-2, .container-3{
+    display: flex;;
+    justify-content: center;
+    width: 50%;
+    height: inherit;
+}
+/*  */
+.c12, .c22, .c32 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.heading {
+    font-size: 48px;
+}
+.pic {
+    margin-top: 20%;
+    height: 50%;
+    border-radius: 50%;
+    border: 2px white solid;
+}
+.heading-2, .heading-3 {
+    height: fit-content;
+    text-align: left;
+    font-size: 48px;
+}
+.c22, .c32{
+    justify-content: start;
+}
+.section-3 {
+    margin-top: -150px;
+}
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.c21, .c31 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.c {
+    height: 50%;
+}
+.sub-heading {
+    font-size: 32px;
+    margin-top: 30px;
+}
+.icons, .social-items {
+    list-style: none;
+}
+.icons img:hover {
+    cursor: pointer;
+    height: 60px;
+}
+.icon-section, .social {
+    margin-left: -50px;
+    display: flex;
+}
+.links a {
+    font-size: 20px;
+}
+.align {
+    width: fit-content;
+    height: 65%;
+}
+.contacts {
+    font-size: 16px;
+    padding: 20px 0px 5px 10px;
+}
+svg {
+    fill: white;
+}
+.svg {
+    font-size: 36px;
+}
+label {
+    font-size: 20px;
+}
+input, textarea{
+    color: black;
+    height: 30px;
+    border-radius: 5px;
+}
+.form {
+    margin-left: 80px;
+    margin-top: 80px;
+    width: 80%;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-text {
+    font-size: 17px;
+}
+#fname,
+#lname,
+#email,
+#query {
+    height: 30px;
+    width: 90%;
+    border: 1px rgb(145, 145, 145) solid;
+    border-radius: 4px;
+}
+#email,
+#query {
+    width: 95%;
+}
+#query {
+    height: 150px;
+}
+#button {
+    padding: 5px 10px;
+    background-color: #000000;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    margin-top: 10px;
+}
+#button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
